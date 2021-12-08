@@ -1,0 +1,36 @@
+.btn {
+  margin: 0 5px;
+  width: 60px;
+  &--start {
+    background-color: #33c733;
+    border: 1px solid #177c17;
+    color: #fff;
+    &:hover {
+      background-color: #177c17;
+    }
+  }
+  &--stop {
+    background-color: #f14141;
+    border: 1px solid #d31212;
+    color: #fff;
+    &:hover {
+      background-color: #d31212;
+    }
+  }
+  &--reset {
+    background-color: #4170f1;
+    border: 1px solid #1225d3;
+    color: #fff;
+    &:hover {
+      background-color: #1225d3;
+    }
+  }
+  &--wait {
+    background-color: #d441f1;
+    border: 1px solid #be0ad6;
+    color: #fff;
+    &:hover {
+      background-color: #be0ad6;
+    }
+  }
+}
